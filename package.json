@@ -1,0 +1,28 @@
+{
+  "name": "mockresponseagent",
+  "version": "1.0.0",
+  "description": "A mock response generator for the given api spec",
+  "homepage": "https://github.com/MugiM23/MockResponseAgent#readme",
+  "bugs": {
+    "url": "https://github.com/MugiM23/MockResponseAgent/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MugiM23/MockResponseAgent.git"
+  },
+  "license": "ISC",
+  "author": "Mugesh Kumar M",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
